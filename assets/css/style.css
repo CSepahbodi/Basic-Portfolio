@@ -3,9 +3,19 @@
     background-color: white;
   }
   
+.name {
+    font-size: 60px;
+    float: left;
+    background-color: #4aaaa5;
+}
+
+.name:hover {
+    background-color: #4aaaa5;
+    color: #4aaaa5;
+}
   .topnav a {
     float: right;
-    color: #4aaaa5;
+    color: white; 
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -13,11 +23,11 @@
   }
   
   .topnav a:hover {
-    background-color: #4aaaa5;
-    color: white;
+    background-color: white;
+    color: #4aaaa5;
   }
   
   .topnav a.active {
-    background-color: #4aaaa5;
-    color: white;
+    background-color: white;
+    color: #4aaaa5;
   }
