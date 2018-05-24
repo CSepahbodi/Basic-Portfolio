@@ -1,0 +1,33 @@
+.topnav {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+p.name {
+    font-size: 60px;
+    float: left;
+    background-color: #4aaaa5;
+}
+
+.name:hover {
+    background-color: #4aaaa5;
+    color: #4aaaa5;
+}
+  .topnav a {
+    float: right;
+    color: white; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30x;
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: #4aaaa5;
+  }
+  
+  .topnav a.active {
+    background-color: white;
+    color: #4aaaa5;
+  }
