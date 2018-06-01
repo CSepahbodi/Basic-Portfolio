@@ -1,26 +1,36 @@
 body{
-    background-image: url(../images/country-quilt.png);
+    background-image: url(../images/stripes-light.png);
     color: #777777;
     margin: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
 }
 
-.header {
-    background: #ffffff;
-    border-bottom: 3px #cccccc solid;
-    margin: 0 auto;
-
+.indexcontent {
+    width: 960px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.namenav {
+#nav {
     background: #ffffff;
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .buttonnav {
+    Float: right;
     background: #ffffff;
     width: 960px;
     margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
 }
+
+h1{
+    display: inline-block;
+    color: #ffffff;
+    background: #4aaaa5;
+    margin: 0;
+    padding: 20px;
+}
+
